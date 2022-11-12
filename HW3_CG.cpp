@@ -326,7 +326,7 @@ int main() {
 
 
     GLFWimage images[1];
-    images[0].pixels = stbi_load("C:/Users/Arman/Documents/Visual Studio 2022/Projects/HW3_CG/cylinder.png", &images[0].width, &images[0].height, 0, 4);
+    images[0].pixels = stbi_load("cylinder.png", &images[0].width, &images[0].height, 0, 4);
     glfwSetWindowIcon(window, 1, images);
     stbi_image_free(images[0].pixels);
 
